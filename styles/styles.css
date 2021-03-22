@@ -1,0 +1,93 @@
+header{
+    background-color: rgb(236, 255, 127);
+    display:flex;
+    justify-content:space-between  ;
+    align-items: center;
+
+}
+.gerbi{
+    width: 100px;
+    padding: 30px;
+}
+.navigetion-holder{
+    width: 600px;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+nav{
+    padding: 30px;
+}
+ul li{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    outline: 0;
+}
+ .cover-image{
+    background-image: url( "../imeges/xedi\ lachtidan.jpg");
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover-content h1{
+   color: rgb(255, 255, 255); 
+   font: size:50px;
+   font-size: 60px;
+   text-align: center;
+
+
+}
+.cover-content p{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cover-content button {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 15px 30px;
+    background-color: blue; 
+    color: white;
+     
+
+}
+.cover-content button:hover{
+    transition: 1.1;
+    margin-left: 30px;
+}
+.about-section{
+    text-align: center;
+    background-color: thistle;
+
+}
+.about-section h2{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+} 
+.about-section p{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.video{
+    margin: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+footer{
+    background-color: rgb(50, 174, 205);
+    height: 50px;
+    display: flex;
+    justify-content: right;
+
+
+}
+footer{
+    color: rgb(15, 14, 14);
+    font-size: 35px;
+}
