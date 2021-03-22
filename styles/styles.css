@@ -62,6 +62,7 @@ a{
 .about-section{
     text-align: center;
     background-color: thistle;
+    padding: 80px 90px;
 
 }
 .about-section h2{
@@ -78,6 +79,14 @@ a{
     display: flex;
     justify-content: center;
     margin: 30px;
+
+}
+
+.imagesinagoga{
+    margin: center;
+    display: flex;
+    justify-content: center;
+    margin: 1000px;
 }
 footer{
     background-color: rgb(50, 174, 205);
@@ -90,4 +99,10 @@ footer{
 footer{
     color: rgb(15, 14, 14);
     font-size: 35px;
+}
+.container{
+    display: flex;
+    padding: 80px 90px;
+    background-color:  thistle; 
+    color: white;
 }
